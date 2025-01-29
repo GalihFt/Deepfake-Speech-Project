@@ -23,7 +23,7 @@ The dataset used in this project is ASVSpoof2019 Logical Access, which can be ac
   * Chromagram (1-12), MFCC (1-20), spectral centroid, spectral spread, spectral rolloff, zero crossing rate, and root mean square.
 * Extract **image-based** features:
   * Convert audio into **mel-spectrograms**.
-* The feature extraction process can be found [here](insert GitHub link).
+* The feature extraction process can be found [here](https://github.com/GalihFt/Deepfake-Speech-Project/tree/f871b327b7dfe48e737af6f0a008fe4575da5ebb/Data%20Extract).
 
 ### 3. Data Preprocessing
 * Normalize numerical variables using **min-max normalization**.
@@ -34,14 +34,14 @@ The dataset used in this project is ASVSpoof2019 Logical Access, which can be ac
   * Initialize models and parameters.
   * Train models and measure training time.
   * Evaluate performance using the validation set.
-* The machine learning model training process can be found [here](insert GitHub link).
+* The machine learning model training process can be found [here](https://github.com/GalihFt/Deepfake-Speech-Project/blob/f871b327b7dfe48e737af6f0a008fe4575da5ebb/Model/Klasifikasi_Tabular.ipynb).
 
 ### 5. Image-Based Classification (Deep Learning)
 * Train **CNN** and **CNN-LSTM** models:
   * Build architectures and initialize parameters.
   * Train models and monitor validation performance.
   * Measure training time and evaluate model performance.
-* The deep learning model training process can be found [here](insert GitHub link).
+* The deep learning model training process can be found [here](https://github.com/GalihFt/Deepfake-Speech-Project/blob/f871b327b7dfe48e737af6f0a008fe4575da5ebb/Model/Klasifikasi_Image.ipynb).
 
 ### 6. Hyperparameter Tuning
 * Optimize all models based on training and validation performance.
